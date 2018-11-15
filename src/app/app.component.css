@@ -1,0 +1,8 @@
+.slider{position: absolute;width: 96%;max-width: 600px;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.slider-holder{position: relative;display: table;vertical-align: center;width: 100%;top: 0;left: 0;background-color: rgba(0,0,0,.2);box-shadow: 0 0 10px rgba(0,0,0,0.2);}
+.slider-holder img{position: relative;width: 100%;display: table-cell;}
+.slider-button{position: absolute;top:0;left: 0;box-shadow: 0 0 10px 0px grey;transition: all .35s;}
+.slider-button[disabled=disabled] {opacity: .6;}
+.slider-button.left{}
+.slider-button.right{left: auto;right: 0;}
+.slider-button:hover{box-shadow: 0 0 10px 10px grey;}
